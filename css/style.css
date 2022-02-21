@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#grid_wrapper_index {
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: minmax(100px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(100px, 1fr) minmax(350px, 3.5fr) minmax(100px, 1fr) minmax(350px, 3.5fr) minmax(100px, 1fr);
+
+    grid-template-areas: 
+    "nav"
+    "cp1"
+    "c1i"
+    "cp2"
+    "c2i"
+    "cp3"
+    "c3i"
+    ;
+}
+
+.nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 80%;
+}
+
+.hamburger_meny {
+    position: absolute;
+}
+
+#car_pic1 {
+    display: flex;
+    grid-area: cp1;
+}
+
+#xc60 {
+    width: 100%;
+    height: auto;
+}
+
+#car_pic2 {
+    display: flex;
+    grid-area: cp2;
+}
+
+#m4 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#car_pic3 {
+    display: flex;
+    grid-area: cp3;
+}
+
+#rs6 {
+    width: 100%;
+    height: auto;
+}
+
+#car1_info {
+    grid-area: c1i;
+}
+
+#car2_info {
+    grid-area: c2i;
+}
+
+#car3_info {
+    grid-area: c3i;
+}
+
+.car_info {
+    list-style: none;
+
+}
+
+
+#car1_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#car2_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#car3_info_list {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+
+
+
+
