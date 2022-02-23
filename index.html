@@ -10,6 +10,13 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Khand&family=Poppins:wght@800&family=Roboto:wght@500;900&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Khand&family=Poppins:wght@500;800&family=Roboto:wght@500;900&display=swap');
+    </style>
+
 
 </head>
 <body>
@@ -20,7 +27,34 @@
 
             <img class="logo" src="img/logo_v4(cut).png" alt="Företagets logga" >
 
-            <div class="hamburger_meny"></div>
+            <div class="burger">
+
+                <div id="burger_line1"></div>
+                <div id="burger_line2"></div>
+                <div id="burger_line3"></div>
+
+            </div>
+
+            <ul class="nav_links">
+
+                <li>
+                    <a href="index.html">Bilar</a>
+                </li>
+
+                <li>
+                    <a href="motorcycles.html">Motorcyklar</a>
+                </li>
+
+                <li>
+                    <a href="about_us.html">Om oss</a>
+                </li>
+
+                <li>
+                    <a href="here_are_we.html">Här finns vi</a>
+                </li>
+
+                
+            </ul>
 
         </nav>
 
@@ -30,11 +64,11 @@
 
             <ul id="car1_info_list">
 
-                <li class="car_info">286 000 kr</li>
+                <li class="car_info"><p class="car_info_text">286 000 kr</p></li>
 
-                <li class="car_info">240 hk</li>
+                <li class="car_info"><p class="car_info_text">240 hk</p></li>
 
-                <li class="car_info">8 sittplatser</li>
+                <li class="car_info"><p class="car_info_text">8 sittplatser</p></li>
 
             </ul>
 
@@ -47,11 +81,11 @@
 
             <ul id="car2_info_list">
 
-                <li class="car_info">175 000 kr</li>
+                <li class="car_info"><p class="car_info_text">175 000 kr</p></li>
 
-                <li class="car_info">190 hk</li>
+                <li class="car_info"><p class="car_info_text">190 hk</p></li>
 
-                <li class="car_info">9 sittplatser</li>
+                <li class="car_info"><p class="car_info_text">4 sittplatser</p></li>
 
             </ul>
 
@@ -59,17 +93,17 @@
         </section>
 
 
-        <section id="car_pic3"><img id="rs6" src="img/rs6_small.jpg" alt="bild på en audi rs6"></section>
+        <section id="car_pic3"><img id="rs6" src="img/rs6.jpg" alt="bild på en audi rs6"></section>
 
         <section id="car3_info">
 
             <ul id="car3_info_list">
 
-                <li class="car_info">620 000 kr</li>
+                <li class="car_info"><p class="car_info_text">620 000 kr</p></li>
 
-                <li class="car_info">600 hk</li>
+                <li class="car_info"><p class="car_info_text">600 hk</p></li>
 
-                <li class="car_info">5 sittplatser</li>
+                <li class="car_info"><p class="car_info_text">5 sittplatser</p></li>
 
             </ul>
 
@@ -83,8 +117,12 @@
 
 
 
+    <script src="js/script.js"></script>
 
-    
+
+
+
+
 </body>
 </html>
 

@@ -10,7 +10,7 @@
     width: 100vw;
     height: 100vh;
     grid-template-columns: minmax(100px, 1fr);
-    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(100px, 1fr) minmax(350px, 3.5fr) minmax(100px, 1fr) minmax(350px, 3.5fr) minmax(100px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
 
     grid-template-areas: 
     "nav"
@@ -33,24 +33,24 @@
 .logo {
     width: auto;
     height: 80%;
-}
-
-.hamburger_meny {
-    position: absolute;
+    transition: all 1s;
 }
 
 #car_pic1 {
     display: flex;
+    justify-content: center;
     grid-area: cp1;
 }
 
 #xc60 {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 #car_pic2 {
     display: flex;
+    justify-content: center;
     grid-area: cp2;
 }
 
@@ -62,24 +62,30 @@
 
 #car_pic3 {
     display: flex;
+    justify-content: center;
     grid-area: cp3;
 }
 
 #rs6 {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 #car1_info {
     grid-area: c1i;
+    
 }
 
 #car2_info {
     grid-area: c2i;
+
+    
 }
 
 #car3_info {
     grid-area: c3i;
+    
 }
 
 .car_info {
@@ -92,6 +98,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 4%;
+   
 }
 
 
@@ -99,20 +107,111 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 4%;
+    
 }
-
 
 
 #car3_info_list {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4%;
+    
    
+}
+
+.car_info_text {
+    font-size: 1.325rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#burger_line1 {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 20%;
+    margin-right: 1rem;
+    right: 10px;
+    transition: all 1s;
+        
+}
+
+
+#burger_line2 {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 20%;
+    margin-right: 1rem;
+    right: 10px;
+    transition: all 1s;
+        
+}
+
+#burger_line3 {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 20%;
+    margin-right: 1rem;
+    right: 10px;
+    transition: all 1s;   
+}
+
+.burger {
+    position: absolute;
+    right: 1rem;
+}
+
+.nav_links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    height: 60vh;
+    width: 25vh;
+    position: absolute;
+    top: -100vh;
+    right: 0px;
+    transition: all 1s;
+    list-style: none;
+    font-size: 1.125rem;
+}
+
+ul a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.toggle .nav_links {
+
+    transform: translateY(115vh);
+}
+
+.toggle .logo {
+   transform: translate(-6rem);
 }
 
 
 
+.toggle #burger_line2 {
+    opacity: 0;
+}
 
+.toggle #burger_line1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
 
-
+.toggle #burger_line3 {
+    transform: rotate(45deg) translate(-7px, -6px);
+}
 
 
