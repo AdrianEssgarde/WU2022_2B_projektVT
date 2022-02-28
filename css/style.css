@@ -177,8 +177,8 @@
     height: 60vh;
     width: 25vh;
     position: absolute;
-    top: -100vh;
-    right: 0px;
+    top: -60vh;
+    right: 0vw;
     transition: all 1s;
     list-style: none;
     font-size: 1.125rem;
@@ -193,13 +193,13 @@ ul a {
 
 .toggle .nav_links {
 
-    transform: translateY(115vh);
+    transform: translateY(75vh);
 }
 
 .toggle .logo {
    transform: translate(-6rem);
+   transition: all 1;
 }
-
 
 
 .toggle #burger_line2 {
@@ -213,5 +213,250 @@ ul a {
 .toggle #burger_line3 {
     transform: rotate(45deg) translate(-7px, -6px);
 }
+
+
+#grid_wrapper_motorcykles {
+    
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+    height: 100vh;
+    width: 100vw;
+
+    grid-template-areas: 
+    "nav nav"
+    "mp1 mp2"
+    "m1i m2i"
+    "mp3 mp4"
+    "m3i m4i"
+    "mp5 mp6"
+    "m5i m6i"
+    
+    
+    ;
+}
+
+#mc_pic1 {
+    grid-area: mp1;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic2 {
+    grid-area: mp2;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic3 {
+    grid-area: mp3;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic4 {
+    grid-area: mp4;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic5 {
+    grid-area: mp5;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic6 {
+    grid-area: mp6;
+    display: flex;
+    justify-content: center;
+}
+
+
+#mc1 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mc2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+#mc3 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mc4 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+#mc5 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+#mc6 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.mc_info_text {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+#mc1_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6%;
+   
+}
+
+
+#mc2_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6%;
+    
+}
+
+
+#mc3_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6%;
+
+  
+}
+
+
+#mc4_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6%;
+}
+
+
+#mc5_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6%;
+    
+}
+
+
+#mc6_info_list {
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#grid_wrapper_here_are_we {
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr);
+    grid-template-rows: minmax(125px, 1fr) minmax(300px, 3.6fr) minmax(300px, 3.6fr) minmax(300px, 3.6fr);
+    grid-template-areas:
+    "nav nav"
+    "pl1 p1c"
+    "pl2 p2c"
+    "pl3 p3c"
+    ;
+}
+
+#place1 {
+    grid-area: pl1;
+
+}
+
+#place2 {
+    grid-area: pl2;
+
+}
+
+#place3 {
+    grid-area: pl3;
+
+}
+
+#place1_pic {
+    display: flex;
+    grid-area: p1c;
+
+}
+
+#place2_pic {
+    display: flex;
+    grid-area: p2c;
+
+}
+
+#place3_pic {
+    display: flex;
+    grid-area: p3c;
+
+}
+
+#dealer1 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+#dealer2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+#dealer3 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.place_title {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
 
 
