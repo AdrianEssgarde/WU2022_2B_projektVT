@@ -10,7 +10,7 @@
     width: 100vw;
     height: 100vh;
     grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
 
     grid-template-areas: 
     "nav"
@@ -20,6 +20,12 @@
     "c2i"
     "cp3"
     "c3i"
+    "cp4"
+    "c4i"
+    "cp5"
+    "c5i"
+    "cp6"
+    "c6i"
     ;
 }
 
@@ -66,11 +72,49 @@
     grid-area: cp3;
 }
 
+#car_pic4 {
+    display: flex;
+    justify-content: center;
+    grid-area: cp4;
+}
+
+#car_pic5 {
+    display: flex;
+    justify-content: center;
+    grid-area: cp5;
+}
+
+#car_pic6 {
+    display: flex;
+    justify-content: center;
+    grid-area: cp6;
+}
+
 #rs6 {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
+
+#austin {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mustang {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#m2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
 
 #car1_info {
     grid-area: c1i;
@@ -134,6 +178,69 @@
 
 }
 
+#car4_info:before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#car4_info {
+    grid-area: c4i;
+    position: relative;
+    
+}
+
+#car5_info:before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#car5_info {
+    grid-area: c5i;
+    position: relative;
+    
+}
+
+#car6_info:before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#car6_info {
+    grid-area: c6i;
+    position: relative;
+    
+}
+
 .car_info {
     list-style: none;
 
@@ -144,7 +251,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 4%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
    
 }
 
@@ -153,7 +262,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 4%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -162,8 +273,40 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 4%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     
+   
+}
+
+#car4_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+
+#car5_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+
+#car6_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
    
 }
 
@@ -266,7 +409,7 @@ ul a {
     
     display: grid;
     grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr);
-    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
     height: 100vh;
     width: 100vw;
 
@@ -278,6 +421,10 @@ ul a {
     "m3i m4i"
     "mp5 mp6"
     "m5i m6i"
+    "mp7 mp8"
+    "m7i m8i"
+    "mp9 mp9"
+    "m9i m9i"
     
     
     ;
@@ -315,6 +462,24 @@ ul a {
 
 #mc_pic6 {
     grid-area: mp6;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic7 {
+    grid-area: mp7;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic8 {
+    grid-area: mp8;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic9 {
+    grid-area: mp9;
     display: flex;
     justify-content: center;
 }
@@ -360,6 +525,24 @@ ul a {
     object-fit: cover;
 }
 
+#mc7 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mc8 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mc9 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 ul {
     text-decoration: none;
     list-style: none;
@@ -373,6 +556,7 @@ ul {
 #mc1_info {
 
     position: relative;
+    grid-area: m1i;
 }
 
 #mc1_info:before{
@@ -393,6 +577,7 @@ ul {
 #mc2_info {
 
     position: relative;
+    grid-area: m2i;
 }
 
 #mc2_info:before{
@@ -413,6 +598,7 @@ ul {
 #mc3_info {
 
     position: relative;
+    grid-area: m3i;
 }
 
 #mc3_info:before{
@@ -433,6 +619,7 @@ ul {
 #mc4_info {
 
     position: relative;
+    grid-area: m4i;
 }
 
 #mc4_info:before{
@@ -453,6 +640,7 @@ ul {
 #mc5_info {
 
     position: relative;
+    grid-area: m5i;
 }
 
 #mc5_info:before{
@@ -473,9 +661,73 @@ ul {
 #mc6_info {
 
     position: relative;
+    grid-area: m6i;
 }
 
 #mc6_info:before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#mc7_info {
+
+    position: relative;
+    grid-area: m7i;
+}
+
+#mc7_info:before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#mc8_info {
+
+    position: relative;
+    grid-area: m8i;
+}
+
+#mc8_info:before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#mc9_info {
+
+    position: relative;
+    grid-area: m9i;
+}
+
+#mc9_info:before{
 
     background-image: url(../img/gray2.jpg);
     content: "";
@@ -495,7 +747,9 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 6%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     position: relative;
    
 }
@@ -505,7 +759,9 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 6%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -514,7 +770,9 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 6%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 
   
 }
@@ -524,7 +782,9 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 6%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -532,16 +792,49 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 6%;
-    
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 
 #mc6_info_list {
     display: flex;
-    margin-top: 6%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#mc7_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#mc8_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#mc9_info_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -684,7 +977,197 @@ ul {
     margin-top: 1rem;
 }
 
+#about_us_wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
 
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(125px, 1fr) minmax(200px, 2fr) minmax(250px, 2.4fr) minmax(200px, 2fr) minmax(250px, 2.4fr);
+
+    grid-template-areas:
+    "nav"
+    "ohi"
+    "ohp"
+    "hww"
+    "hwp"
+    ;
+
+}
+
+#our_history {
+    grid-area: ohi;
+    position: relative;
+}
+
+
+#our_history::before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#our_history_pic {
+    grid-area: ohp;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#how_we_work {
+    grid-area: hww;
+    position: relative;
+}
+
+#how_we_work::before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#how_we_work_pic {
+    grid-area: hwp;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#costumer {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#old_cars {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about_us_text {
+    margin: 1rem;
+    margin-left: 1.8rem;
+    line-height: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    fill-opacity: 0;
+    color: black;
+}
+
+.about_us_title {
+
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media screen and (min-width: 800px) {
+
+    #grid_wrapper_index {
+        
+        grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
+        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+        
+        grid-template-areas:
+        "nav nav"
+        "cp1 cp2"
+        "c1i c2i"
+        "cp3 cp4"
+        "c3i c4i"
+        "cp5 cp6"
+        "c5i c6i"
+        ;
+    }
+
+    #burger_line1 {
+        transition: all 0s;
+        position: absolute;
+        top: -60vh;
+            
+    }
+    
+    
+    #burger_line2 {
+        transition: all 0s;
+        position: absolute;
+        top: -60vh;
+            
+    }
+    
+    #burger_line3 {
+        transition: all 0s;
+        position: absolute;
+        top: -60vh;
+    }
+    
+    .nav_links {
+
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: static;
+        top: 0vh;
+        transition: all 0s;
+        font-size: 1.4rem;
+
+        
+    }
+
+    .logo {
+        transition: all 0s;
+        margin-left: 20px;
+    }
+
+
+    #grid_wrapper_motorcykles {
+
+        grid-template-columns: minmax(267px, 1fr)  minmax(267px, 1fr) minmax(267px, 1fr);
+        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+
+        grid-template-areas: 
+        "nav nav nav"
+        "mp1 mp2 mp3"
+        "m1i m2i m3i"
+        "mp4 mp5 mp6"
+        "m4i m5i m6i"
+        "mp7 mp8 mp9"
+        "m7i m8i m9i"
+        ;
+
+    }
+
+    .mc_info_text {
+        font-size: 1.325rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+
+
+
+}
+    
 
 
 
