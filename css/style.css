@@ -503,6 +503,7 @@ ul a {
     width: 100%;
     height: auto;
     object-fit: cover;
+
 }
 
 #mc4 {
@@ -729,7 +730,7 @@ ul {
 
 #mc9_info:before{
 
-    background-image: url(../img/gray2.jpg);
+    background-image: url(../img/gray.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -845,7 +846,7 @@ ul {
     width: 100vw;
     height: 100vh;
     grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: minmax(125px, 1fr) 150px minmax(200px, 2.8fr) 150px minmax(200px, 2.8fr) 150px minmax(200px, 2.8fr);
+    grid-template-rows: minmax(125px, 1fr) 175px minmax(250px, 2.8fr) 175px minmax(250px, 2.8fr) 175px minmax(250px, 2.8fr);
     grid-template-areas:
     "nav"
     "pl1"
@@ -977,13 +978,13 @@ ul {
     margin-top: 1rem;
 }
 
-#about_us_wrapper {
+#grid_wrapper_about_us {
     height: 100vh;
     width: 100vw;
     display: grid;
 
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(125px, 1fr) minmax(200px, 2fr) minmax(250px, 2.4fr) minmax(200px, 2fr) minmax(250px, 2.4fr);
+    grid-template-columns: minmax(200px, 1fr);
+    grid-template-rows: minmax(125px, 1fr) minmax(250px, 2fr) minmax(300px, 2.4fr) minmax(250px, 2fr) minmax(300px, 2.4fr) minmax(250px, 2fr) minmax(300px, 2.4fr);
 
     grid-template-areas:
     "nav"
@@ -991,15 +992,48 @@ ul {
     "ohp"
     "hww"
     "hwp"
+    "pol"
+    "hif"
     ;
 
+}
+
+#policy {
+    grid-area: pol;
+    position: relative;
+}
+
+#policy::before{
+
+    background-image: url(../img/gray2.jpg);
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: brightness(200%);
+
+}
+
+#policy_pic {
+    grid-area: hif;
+    display: flex;
 }
 
 #our_history {
     grid-area: ohi;
     position: relative;
+
 }
 
+
+#our_history_pic {
+    grid-area: ohp;
+    display: flex;
+}
 
 #our_history::before{
 
@@ -1016,16 +1050,17 @@ ul {
 
 }
 
-#our_history_pic {
-    grid-area: ohp;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #how_we_work {
     grid-area: hww;
     position: relative;
+}
+
+
+#how_we_work_pic {
+    display: flex;
+    grid-area: hwp;
+
+    
 }
 
 #how_we_work::before{
@@ -1043,17 +1078,12 @@ ul {
 
 }
 
-#how_we_work_pic {
-    grid-area: hwp;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #costumer {
     width: 100%;
     height: auto;
     object-fit: cover;
+    object-position: top;
+    
 }
 
 #old_cars {
@@ -1062,13 +1092,20 @@ ul {
     object-fit: cover;
 }
 
+#high_five {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
 .about_us_text {
     margin: 1rem;
     margin-left: 1.8rem;
     line-height: 1.4rem;
     font-family: 'Poppins', sans-serif;
-    fill-opacity: 0;
     color: black;
+   
 }
 
 .about_us_title {
@@ -1161,6 +1198,47 @@ ul {
         font-size: 1.325rem;
         font-family: 'Poppins', sans-serif;
     }
+
+    #grid_wrapper_here_are_we {
+
+        grid-template-columns: minmax(350px, 1fr)  minmax(200px, 1fr) minmax(200px, 1fr);
+        grid-template-rows:minmax(125px, 1fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr);
+        grid-template-areas: 
+        "nav nav nav"
+        "pl1 p1c p1c"
+        "pl2 p2c p2c"
+        "pl3 p3c p3c"
+        ;
+    }
+
+    .place_text {
+        line-height: 1.8rem;
+        margin-left: 2.8rem;
+        font-size: 1.125rem;
+    }
+
+    .place_title {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+    #grid_wrapper_about_us {
+
+        grid-template-columns: minmax(450px, 1fr) minmax(450px, 2fr);
+        grid-template-rows: minmax(125px, 1fr) minmax(300px, 2.8fr) minmax(300px, 2.8fr) minmax(300px, 2.8fr);
+
+        grid-template-areas: 
+        "nav nav"
+        "ohi ohp"
+        "hww hwp"
+        "pol hif"
+        ;
+
+    }
+
+
+
+    
 
 
 
