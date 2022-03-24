@@ -132,8 +132,8 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -144,7 +144,7 @@
 
 #car2_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -152,8 +152,8 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -165,7 +165,7 @@
 
 #car3_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -173,14 +173,14 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
 #car4_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -188,8 +188,8 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -201,7 +201,7 @@
 
 #car5_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -209,8 +209,8 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -222,7 +222,7 @@
 
 #car6_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -230,8 +230,8 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -313,13 +313,14 @@
 .car_info_text {
     font-size: 1.325rem;
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 
 #burger_line1 {
     width: 30px;
     height: 4px;
-    background-color: black;
+   background-image: url(../img/gray2.jpg);
     margin: 5px;
     border-radius: 20%;
     margin-right: 1rem;
@@ -332,7 +333,7 @@
 #burger_line2 {
     width: 30px;
     height: 4px;
-    background-color: black;
+   background-image: url(../img/gray2.jpg);
     margin: 5px;
     border-radius: 20%;
     margin-right: 1rem;
@@ -344,7 +345,7 @@
 #burger_line3 {
     width: 30px;
     height: 4px;
-    background-color: black;
+   background-image: url(../img/gray2.jpg);
     margin: 5px;
     border-radius: 20%;
     margin-right: 1rem;
@@ -363,14 +364,15 @@
     flex-direction: column;
     justify-content: space-around;
     background-color: white;
-    height: 60vh;
+    height: 500px;
     width: 25vh;
     position: absolute;
-    top: -60vh;
+    top: -500px;
     right: 0vw;
     transition: all 1s;
     list-style: none;
     font-size: 1.125rem;
+    z-index: 10;
 }
 
 ul a {
@@ -382,8 +384,8 @@ ul a {
 
 .toggle .nav_links {
 
-    transform: translateY(75vh);
-    z-index: 10;
+    transform: translateY(625px);
+    
 }
 
 .toggle .logo {
@@ -552,6 +554,7 @@ ul {
 .mc_info_text {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 #mc1_info {
@@ -562,7 +565,7 @@ ul {
 
 #mc1_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -570,8 +573,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -583,7 +586,7 @@ ul {
 
 #mc2_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -591,8 +594,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -604,7 +607,7 @@ ul {
 
 #mc3_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -612,8 +615,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -625,7 +628,7 @@ ul {
 
 #mc4_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -633,8 +636,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -646,7 +649,7 @@ ul {
 
 #mc5_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -654,8 +657,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -667,7 +670,7 @@ ul {
 
 #mc6_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -675,8 +678,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -688,7 +691,7 @@ ul {
 
 #mc7_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -696,8 +699,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -709,7 +712,7 @@ ul {
 
 #mc8_info:before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -717,8 +720,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -730,7 +733,7 @@ ul {
 
 #mc9_info:before{
 
-    background-image: url(../img/gray.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -738,8 +741,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(180%);
 
 }
 
@@ -875,7 +878,7 @@ ul {
 
 #place1::before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -883,15 +886,15 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+      opacity: 0.8;
+      filter: brightness(120%);
 
 }
 
 
 #place2::before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -899,15 +902,15 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(120%);
 
 }
 
 
 #place3::before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -915,8 +918,9 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(120%);
+    outline: black;
 
 }
 
@@ -956,13 +960,16 @@ ul {
     width: 100%;
     height: auto;
     object-fit: cover;
+    object-position: bottom;
 
 }
 
 .place_title {
     margin-left: 1rem;
+    position: relative;
     margin-top: 1rem;
     font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 .place_text {
@@ -970,8 +977,8 @@ ul {
     line-height: 1.4rem;
     font-family: 'Poppins', sans-serif;
     fill-opacity: 0;
+    position: relative;
     color: black;
-    
 }
 
 .place_section {
@@ -1005,7 +1012,7 @@ ul {
 
 #policy::before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -1013,8 +1020,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(120%);
 
 }
 
@@ -1037,7 +1044,7 @@ ul {
 
 #our_history::before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -1045,8 +1052,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(120%);
 
 }
 
@@ -1065,7 +1072,7 @@ ul {
 
 #how_we_work::before{
 
-    background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray2.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -1073,8 +1080,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    filter: brightness(200%);
+    opacity: 0.8;
+      filter: brightness(120%);
 
 }
 
@@ -1100,10 +1107,12 @@ ul {
 }
 
 .about_us_text {
-    margin: 1rem;
+    margin-top: 1rem;
     margin-left: 1.8rem;
     line-height: 1.4rem;
     font-family: 'Poppins', sans-serif;
+    fill-opacity: 0;
+    position: relative;
     color: black;
    
 }
@@ -1112,7 +1121,9 @@ ul {
 
     margin-left: 1rem;
     margin-top: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    position: relative;
 
 }
 
@@ -1163,12 +1174,10 @@ ul {
         height: 100%;
         width: 100%;
         padding: 0;
-        position: static;
         top: 0vh;
         transition: all 0s;
         font-size: 1.4rem;
-
-        
+        position: relative;
     }
 
     .logo {
@@ -1197,29 +1206,35 @@ ul {
     .mc_info_text {
         font-size: 1.325rem;
         font-family: 'Poppins', sans-serif;
+        position: relative;
     }
 
     #grid_wrapper_here_are_we {
 
-        grid-template-columns: minmax(350px, 1fr)  minmax(200px, 1fr) minmax(200px, 1fr);
+        grid-template-columns: minmax(400px, 1fr)  minmax(200px, 2.5fr);
         grid-template-rows:minmax(125px, 1fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr);
         grid-template-areas: 
-        "nav nav nav"
-        "pl1 p1c p1c"
-        "pl2 p2c p2c"
-        "pl3 p3c p3c"
+        "nav nav"
+        "pl1 p1c"
+        "pl2 p2c"
+        "pl3 p3c"
         ;
     }
 
     .place_text {
         line-height: 1.8rem;
-        margin-left: 2.8rem;
+        margin-left: 2rem;
         font-size: 1.125rem;
+        position: relative;
     }
 
     .place_title {
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-top: 1.6rem;
         font-size: 1.8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        position: relative;
     }
 
     #grid_wrapper_about_us {
@@ -1234,6 +1249,20 @@ ul {
         "pol hif"
         ;
 
+    }
+
+    .about_us_title {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+        position: relative;
+    }
+
+    .about_us_text {
+        line-height: 1.8rem;
+        margin-left: 2.8rem;
+        font-size: 1.1rem;
+        margin-right: 1rem;
+        position: relative;
     }
 
 
