@@ -124,7 +124,7 @@
 
 #car1_info:before{
 
-    background-image: url(../img/gray2.jpg);
+    background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -133,7 +133,7 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -144,7 +144,7 @@
 
 #car2_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -153,7 +153,7 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -165,7 +165,7 @@
 
 #car3_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -174,13 +174,13 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
 #car4_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -189,7 +189,7 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -201,7 +201,7 @@
 
 #car5_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -210,7 +210,7 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -222,7 +222,7 @@
 
 #car6_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -231,7 +231,7 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -320,7 +320,7 @@
 #burger_line1 {
     width: 30px;
     height: 4px;
-   background-image: url(../img/gray2.jpg);
+    background-color: black;
     margin: 5px;
     border-radius: 20%;
     margin-right: 1rem;
@@ -333,7 +333,7 @@
 #burger_line2 {
     width: 30px;
     height: 4px;
-   background-image: url(../img/gray2.jpg);
+    background-color: black;
     margin: 5px;
     border-radius: 20%;
     margin-right: 1rem;
@@ -345,7 +345,7 @@
 #burger_line3 {
     width: 30px;
     height: 4px;
-   background-image: url(../img/gray2.jpg);
+    background-color: black;
     margin: 5px;
     border-radius: 20%;
     margin-right: 1rem;
@@ -565,7 +565,7 @@ ul {
 
 #mc1_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -574,7 +574,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -586,7 +586,7 @@ ul {
 
 #mc2_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -595,7 +595,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -607,7 +607,7 @@ ul {
 
 #mc3_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -616,7 +616,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -628,7 +628,7 @@ ul {
 
 #mc4_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -637,7 +637,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -649,7 +649,7 @@ ul {
 
 #mc5_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -658,7 +658,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -670,7 +670,7 @@ ul {
 
 #mc6_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -679,7 +679,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -691,7 +691,7 @@ ul {
 
 #mc7_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -700,7 +700,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -712,7 +712,7 @@ ul {
 
 #mc8_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -721,7 +721,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -733,7 +733,7 @@ ul {
 
 #mc9_info:before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
@@ -742,7 +742,7 @@ ul {
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(180%);
+    filter: brightness(50%);
 
 }
 
@@ -849,77 +849,80 @@ ul {
     width: 100vw;
     height: 100vh;
     grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: minmax(125px, 1fr) 175px minmax(250px, 2.8fr) 175px minmax(250px, 2.8fr) 175px minmax(250px, 2.8fr);
+    grid-template-rows: minmax(125px, 1fr) 400px 400px 400px;
     grid-template-areas:
     "nav"
-    "pl1"
     "p1c"
-    "pl2"
     "p2c"
-    "pl3"
     "p3c"
     ;
 }
 
 #place1 {
-    grid-area: pl1;
+    grid-area: p1c;
     position: relative; 
 }
 
 #place2 {
-    grid-area: pl2;
+    grid-area: p2c;
     position: relative; 
 }
 
 #place3 {
-    grid-area: pl3;
+    grid-area: p3c;
     position: relative; 
 }
 
 #place1::before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
+    width: 1fr;
+    height: 200px;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-      opacity: 0.8;
-      filter: brightness(120%);
+    opacity: 0.8;
+    filter: brightness(50%);
 
 }
 
 
 #place2::before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
+    width: 1fr;
+    height: 200px;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(120%);
+    filter: brightness(50%);
 
 }
 
 
 #place3::before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/gray3.jpg);
     content: "";
     background-size: cover;
     position: absolute;
+    width: 1fr;
+    height: 200px;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(120%);
+    filter: brightness(50%);
     outline: black;
 
 }
@@ -991,19 +994,51 @@ ul {
     display: grid;
 
     grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: minmax(125px, 1fr) minmax(250px, 2fr) minmax(300px, 2.4fr) minmax(250px, 2fr) minmax(300px, 2.4fr) minmax(250px, 2fr) minmax(300px, 2.4fr);
+    grid-template-rows: minmax(125px, 1fr) minmax(400px, 2fr)  minmax(400px, 2fr) minmax(400px, 2fr);
 
     grid-template-areas:
     "nav"
     "ohi"
-    "ohp"
     "hww"
-    "hwp"
     "pol"
-    "hif"
     ;
 
 }
+
+#our_history_background {
+    height: 200px;
+    width: 1fr;
+    position: relative;
+    grid-area: ohi;
+    top: 0px;
+    background-image: url(../img/gray3.jpg);
+    filter: brightness(20%);
+    opacity: 0.4;
+}
+
+#how_we_work_background {
+    height: 200px;
+    width: 1fr;
+    background-image: url(../img/gray3.jpg);
+    filter: brightness(20%);
+    opacity: 0.4;
+    position: relative;
+    grid-area: hww;
+    top: 0px;
+}
+
+
+#policy_background {
+    height: 200px;
+    width: 1fr;
+    background-image: url(../img/gray3.jpg);
+    opacity: 0.4;
+    filter: brightness(20%);
+    position: relative;
+    grid-area: pol;
+    top: 0px;
+}
+
 
 #policy {
     grid-area: pol;
@@ -1012,18 +1047,21 @@ ul {
 
 #policy::before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/policy1.jpg);
     content: "";
     background-size: cover;
+    background-position: top    ;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(120%);
+    filter: brightness(100%);
 
 }
+
+
 
 #policy_pic {
     grid-area: hif;
@@ -1039,21 +1077,20 @@ ul {
 
 #our_history_pic {
     grid-area: ohp;
-    display: flex;
 }
 
 #our_history::before{
 
-   background-image: url(../img/gray2.jpg);
+   background-image: url(../img/history.jpg);
     content: "";
-    background-size: cover;
+    background-position: top;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(120%);
+    filter: brightness(100%);
 
 }
 
@@ -1072,24 +1109,23 @@ ul {
 
 #how_we_work::before{
 
-   background-image: url(../img/gray2.jpg);
+    background-image: url(../img/car_key.jpg);
     content: "";
-    background-size: cover;
+    background-position: center;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.8;
-      filter: brightness(120%);
-
+    filter: brightness(100%);
 }
 
 #costumer {
     width: 100%;
     height: auto;
     object-fit: cover;
-    object-position: top;
+
     
 }
 
@@ -1211,13 +1247,13 @@ ul {
 
     #grid_wrapper_here_are_we {
 
-        grid-template-columns: minmax(400px, 1fr)  minmax(200px, 2.5fr);
-        grid-template-rows:minmax(125px, 1fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr);
+        grid-template-columns: minmax(400px, 1fr)  1fr minmax(400px, 1fr);
+        grid-template-rows: minmax(125px, 1fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr) minmax(350px, 2.8fr);
         grid-template-areas: 
-        "nav nav"
-        "pl1 p1c"
-        "pl2 p2c"
-        "pl3 p3c"
+        "nav nav nav"
+        "p1c p1c p1c"
+        "p2c p2c p2c"
+        "p3c p3c p3c"
         ;
     }
 
@@ -1237,10 +1273,28 @@ ul {
         position: relative;
     }
 
+    #place1::before{
+        width: 500px;
+        height: 100%;
+    
+    }
+
+    #place2::before{
+        width: 500px;
+        height: 100%;
+    
+    }
+
+    #place3::before{
+        width: 500px;
+        height: 100%;
+    
+    }
+
     #grid_wrapper_about_us {
 
-        grid-template-columns: minmax(450px, 1fr) minmax(450px, 2fr);
-        grid-template-rows: minmax(125px, 1fr) minmax(300px, 2.8fr) minmax(300px, 2.8fr) minmax(300px, 2.8fr);
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(125px, 1fr) minmax(400px, 2.8fr) minmax(400px, 2.8fr) minmax(400px, 2.8fr);
 
         grid-template-areas: 
         "nav nav"
@@ -1254,6 +1308,7 @@ ul {
     .about_us_title {
         margin-left: 2rem;
         font-size: 1.8rem;
+        margin-top: 2.6rem;
         position: relative;
     }
 
@@ -1264,6 +1319,8 @@ ul {
         margin-right: 1rem;
         position: relative;
     }
+
+   
 
 
 
