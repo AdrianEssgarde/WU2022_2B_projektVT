@@ -1113,6 +1113,7 @@ ul {
 
 #our_history_pic {
     grid-area: ohp;
+    position: relative;
 }
 
 #our_history::before{
@@ -1161,8 +1162,6 @@ ul {
     width: 100%;
     height: auto;
     object-fit: cover;
-
-    
 }
 
 #old_cars {

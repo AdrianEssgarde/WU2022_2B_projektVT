@@ -6,12 +6,9 @@ const nav_links = document.querySelector(".nav")
 
 function toggleMenu() {
 
-    logo.classList.toggle("toggle")
-
     burger.classList.toggle("toggle")
 
-    
-
+    logo.classList.toggle("toggle")
 
 }
 
