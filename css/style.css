@@ -411,22 +411,29 @@ ul a {
     
     display: grid;
     grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr);
-    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px;
     height: 100vh;
     width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
 
     grid-template-areas: 
     "nav nav"
     "mp1 mp2"
     "m1i m2i"
+    "ma1 ma1"
     "mp3 mp4"
     "m3i m4i"
+    "ma2 ma2"
     "mp5 mp6"
     "m5i m6i"
+    "ma3 ma3"
     "mp7 mp8"
     "m7i m8i"
+    "ma4 ma4"
     "mp9 mp9"
     "m9i m9i"
+    "ma5 ma5"
     
     
     ;
@@ -555,6 +562,15 @@ ul {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     position: relative;
+    margin-left: 1rem;
+}
+
+.mc_info_model {
+    color: black;
+    position: relative;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 #mc1_info {
@@ -749,8 +765,6 @@ ul {
 
 #mc1_info_list {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     padding: 0;
     height: 100%;
     width: 100%;
@@ -834,8 +848,6 @@ ul {
 
 #mc9_info_list {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     padding: 0;
     height: 100%;
     width: 100%;
@@ -1260,7 +1272,7 @@ ul {
     #grid_wrapper_motorcykles {
 
         grid-template-columns: minmax(267px, 1fr)  minmax(267px, 1fr) minmax(267px, 1fr);
-        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(155px, 1fr) minmax(350px, 3.5fr) minmax(175px, 1fr) minmax(350px, 3.5fr) minmax(175px, 1fr);
 
         grid-template-areas: 
         "nav nav nav"
@@ -1275,10 +1287,17 @@ ul {
     }
 
     .mc_info_text {
-        font-size: 1.325rem;
+        font-size: 1.2rem;
         font-family: 'Poppins', sans-serif;
         position: relative;
     }
+
+    .mc_info_model {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+
 
     #grid_wrapper_here_are_we {
 
