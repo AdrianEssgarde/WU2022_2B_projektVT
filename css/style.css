@@ -410,32 +410,30 @@ ul a {
 #grid_wrapper_motorcykles {
     
     display: grid;
-    grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr);
-    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px minmax(350px, 3.5fr) minmax(125px, 1fr) 10px;
+    grid-template-columns: minmax(150px, 1fr) 10px minmax(150px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px;
     height: 100vh;
     width: 100vw;
     padding-left: 10px;
     padding-right: 10px;
 
     grid-template-areas: 
-    "nav nav"
-    "mp1 mp2"
-    "m1i m2i"
-    "ma1 ma1"
-    "mp3 mp4"
-    "m3i m4i"
-    "ma2 ma2"
-    "mp5 mp6"
-    "m5i m6i"
-    "ma3 ma3"
-    "mp7 mp8"
-    "m7i m8i"
-    "ma4 ma4"
-    "mp9 mp9"
-    "m9i m9i"
-    "ma5 ma5"
-    
-    
+    "nav nav nav"
+    "mp1 ma6 mp2"
+    "m1i ma6 m2i"
+    "ma1 ma1 ma1"
+    "mp3 ma7 mp4"
+    "m3i ma7 m4i"
+    "ma2 ma2 ma2"
+    "mp5 ma8 mp6"
+    "m5i ma8 m6i"
+    "ma3 ma3 ma3"
+    "mp7 ma9 mp8"
+    "m7i ma9 m8i"
+    "ma4 ma4 ma4"
+    "mp9 mp9 mp9"
+    "m9i m9i m9i"
+    "ma5 ma5 ma5" 
     ;
 }
 
@@ -565,6 +563,30 @@ ul {
     margin-left: 1rem;
 }
 
+.mc_info_price {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin-left: 1rem;
+}
+
+
+
+.mc_info_text_extra {
+    display: none;
+}
+
+.mc_text_link {
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    position: relative;
+    color: black;
+    margin-left: 1.2rem;
+    line-height: 1.6rem;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
 .mc_info_model {
     color: black;
     position: relative;
@@ -589,7 +611,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -610,7 +632,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -631,7 +653,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -652,7 +674,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -673,7 +695,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -694,7 +716,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -715,7 +737,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -736,7 +758,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -757,7 +779,7 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.3;
     filter: brightness(50%);
 
 }
@@ -1271,17 +1293,19 @@ ul {
 
     #grid_wrapper_motorcykles {
 
-        grid-template-columns: minmax(267px, 1fr)  minmax(267px, 1fr) minmax(267px, 1fr);
-        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(155px, 1fr) minmax(350px, 3.5fr) minmax(175px, 1fr) minmax(350px, 3.5fr) minmax(175px, 1fr);
+        grid-template-columns: minmax(267px, 1fr) 10px minmax(267px, 1fr) 10px minmax(267px, 1fr);
+        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(175px, 1fr) 10px minmax(350px, 3.5fr) minmax(175px, 1fr) 10px minmax(350px, 3.5fr) minmax(175px, 1fr);
 
         grid-template-areas: 
-        "nav nav nav"
-        "mp1 mp2 mp3"
-        "m1i m2i m3i"
-        "mp4 mp5 mp6"
-        "m4i m5i m6i"
-        "mp7 mp8 mp9"
-        "m7i m8i m9i"
+        "nav nav nav nav nav"
+        "mp1 ma3 mp2 ma6 mp3"
+        "m1i ma3 m2i ma6 m3i"
+        "ma1 ma1 ma1 ma1 ma1"
+        "mp4 ma4 mp5 ma7 mp6"
+        "m4i ma4 m5i ma7 m6i"   
+        "ma2 ma2 ma2 ma2 ma2"
+        "mp7 ma5 mp8 ma8 mp9"
+        "m7i ma5 m8i ma8 m9i"
         ;
 
     }
@@ -1290,6 +1314,13 @@ ul {
         font-size: 1.2rem;
         font-family: 'Poppins', sans-serif;
         position: relative;
+    }
+
+    .mc_info_price {
+        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        margin-top: 0.7rem;
     }
 
     .mc_info_model {
