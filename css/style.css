@@ -9,23 +9,22 @@
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+    grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+    grid-template-rows: minmax(125px, 1.25fr) minmax(250px, 2.5fr) minmax(100px, 1fr) minmax(200px, 2fr) minmax(175px, 1.75fr) minmax(200px, 2fr) minmax(175px, 1.75fr) minmax(100px, 1fr) minmax(200px, 2fr) minmax(90px, 0.9fr) minmax(200px, 2fr) minmax(90px, 0.9fr);
 
     grid-template-areas: 
-    "nav"
-    "cp1"
-    "c1i"
-    "cp2"
-    "c2i"
-    "cp3"
-    "c3i"
-    "cp4"
-    "c4i"
-    "cp5"
-    "c5i"
-    "cp6"
-    "c6i"
+    "nav nav"
+    "wel wel"
+    "ouc ouc"
+    "cp1 cp2"
+    "c1i c2i"
+    "cp3 cp4"
+    "c3i c4i"
+    "oum oum"
+    "m10 m11"
+    "i10 i11"
+    "m12 m13"
+    "i12 i13"
     ;
 }
 
@@ -52,6 +51,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-right: 2px;
 }
 
 #car_pic2 {
@@ -79,13 +79,13 @@
 }
 
 #car_pic5 {
-    display: flex;
+    display: none;
     justify-content: center;
     grid-area: cp5;
 }
 
 #car_pic6 {
-    display: flex;
+    display: none;
     justify-content: center;
     grid-area: cp6;
 }
@@ -94,6 +94,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-right: 2px;
 }
 
 #austin {
@@ -119,6 +120,8 @@
 #car1_info {
     grid-area: c1i;
     position: relative;
+    margin-right: 2px;
+    margin-bottom: 2px;
     
 }
 
@@ -140,6 +143,7 @@
 #car2_info {
     grid-area: c2i;
     position: relative;
+    margin-bottom: 2px;
 }
 
 #car2_info:before{
@@ -160,6 +164,7 @@
 #car3_info {
     grid-area: c3i;
     position: relative;
+    margin-right: 2px;
     
 }
 
@@ -199,6 +204,86 @@
     
 }
 
+#mc_pic10 {
+    grid-area: m10;
+    display: flex;
+    justify-content: center;
+    margin-right: 2px;
+}
+
+#mc_pic11 {
+    grid-area: m11;
+    display: flex;
+    justify-content: center;
+}
+
+#mc_pic12 {
+    grid-area: m12;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+#mc_pic13 {
+    grid-area: m13;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+#mc10_info {
+    grid-area: i10;
+    position: relative;
+    background: rgb(189, 189, 189);
+    margin-right: 2px;
+}
+
+#mc11_info {
+    grid-area: i11;
+    position: relative;
+    background: rgb(189, 189, 189);
+}
+
+#mc12_info {
+    grid-area: i12;
+    position: relative;
+    background: rgb(189, 189, 189);
+    margin-right: 2px;
+}
+
+#mc13_info {
+    grid-area: i13;
+    position: relative;
+    background: rgb(189, 189, 189);
+}
+
+#mc10 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mc11 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mc12 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#mc13 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
 #car5_info:before{
 
    background-image: url(../img/gray3.jpg);
@@ -215,6 +300,7 @@
 }
 
 #car5_info {
+    display: none;
     grid-area: c5i;
     position: relative;
     
@@ -236,6 +322,7 @@
 }
 
 #car6_info {
+    display: none;
     grid-area: c6i;
     position: relative;
     
@@ -313,8 +400,85 @@
 .car_info_text {
     font-size: 1.325rem;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     position: relative;
 }
+
+.car_model {
+    font-size: 1.325rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.car_info {
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-left: 0.8rem;
+}
+
+.car_price {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+
+#welcome {
+    grid-area: wel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(220, 220, 220)
+
+}
+
+.welcome_text {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#our_cars {
+    grid-area: ouc;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(169, 169, 169);
+}
+
+#our_cars_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+#our_mc {
+    grid-area: oum;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(169, 169, 169);
+}
+
+#our_mc_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
 
 
 #burger_line1 {
@@ -557,7 +721,7 @@ ul {
 }
 
 .mc_info_text {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
     position: relative;
     margin-left: 1rem;
@@ -567,6 +731,41 @@ ul {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     position: relative;
+    margin-left: 1rem;
+}
+
+.mc_text_link_index {
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    position: relative;
+    color: black;
+    margin-left: 1.2rem;
+    line-height: 1.6rem;
+    font-size: 0.6rem;
+    font-style: italic;
+
+}
+
+
+.mc_info_price_index {
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.mc_info_model_index {
+    color: black;
+    position: relative;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.mc_info_model {
+    font-size: 1.2rem;
     margin-left: 1rem;
 }
 
@@ -583,7 +782,7 @@ ul {
     color: black;
     margin-left: 1.2rem;
     line-height: 1.6rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-style: italic;
 }
 
@@ -1321,6 +1520,8 @@ ul {
         font-family: 'Poppins', sans-serif;
         position: relative;
         margin-top: 0.7rem;
+        font-weight: 600;
+        
     }
 
     .mc_info_model {
