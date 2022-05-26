@@ -78,17 +78,6 @@
     grid-area: cp4;
 }
 
-#car_pic5 {
-    display: none;
-    justify-content: center;
-    grid-area: cp5;
-}
-
-#car_pic6 {
-    display: none;
-    justify-content: center;
-    grid-area: cp6;
-}
 
 #rs6 {
     width: 100%;
@@ -116,92 +105,32 @@
 }
 
 
-
 #car1_info {
     grid-area: c1i;
     position: relative;
+    background: rgb(215, 215, 215);
     margin-right: 2px;
     margin-bottom: 2px;
-    
-}
-
-#car1_info:before{
-
-    background-image: url(../img/gray3.jpg);
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-    filter: brightness(50%);
-
 }
 
 #car2_info {
     grid-area: c2i;
     position: relative;
+    background: rgb(215, 215, 215);
     margin-bottom: 2px;
-}
-
-#car2_info:before{
-
-   background-image: url(../img/gray3.jpg);
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-    filter: brightness(50%);
-
 }
 
 #car3_info {
     grid-area: c3i;
     position: relative;
+    background: rgb(215, 215, 215);
     margin-right: 2px;
-    
-}
-
-#car3_info:before{
-
-   background-image: url(../img/gray3.jpg);
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-    filter: brightness(50%);
-
-}
-
-#car4_info:before{
-
-   background-image: url(../img/gray3.jpg);
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-    filter: brightness(50%);
-
 }
 
 #car4_info {
     grid-area: c4i;
     position: relative;
-    
+    background: rgb(215, 215, 215);
 }
 
 #mc_pic10 {
@@ -437,7 +366,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(220, 220, 220)
+    background-image: url(../img/car_scervice.jpg);
 
 }
 
@@ -445,6 +374,7 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 2rem;
+    color: rgb(215, 215, 215);
 }
 
 #our_cars {
@@ -454,7 +384,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(169, 169, 169);
+    background: rgb(192, 192, 192);
 }
 
 #our_cars_text {
@@ -470,7 +400,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(169, 169, 169);
+    background: rgb(192, 192, 192); 
 }
 
 #our_mc_text {
@@ -1118,8 +1048,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
-    filter: brightness(60%);
+    opacity: 0.9;
+    filter: brightness(80%);
 
 }
 
@@ -1136,8 +1066,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
-    filter: brightness(60%);
+    opacity: 0.9;
+    filter: brightness(80%);
 
 }
 
@@ -1154,8 +1084,8 @@ ul {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
-    filter: brightness(60%);
+    opacity: 0.9;
+    filter: brightness(80%);
  
 
 }
@@ -1237,6 +1167,7 @@ ul {
     ;
 
 }
+
 
 #our_history_background {
     position: relative;
@@ -1434,20 +1365,153 @@ ul {
 @media screen and (min-width: 800px) {
 
     #grid_wrapper_index {
+
+        height: 100vh;
+        width: 100vw;
         
-        grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
-        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr) minmax(350px, 3.5fr) minmax(75px, 1fr);
+        grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+        grid-template-rows: minmax(125px, 1.25fr) minmax(400px, 4fr) minmax(100px, 1fr) minmax(200px, 2fr) minmax(175px, 1.75fr) minmax(100px, 1fr) minmax(200px, 2fr) minmax(90px, 0.9fr);
         
         grid-template-areas:
-        "nav nav"
-        "cp1 cp2"
-        "c1i c2i"
-        "cp3 cp4"
-        "c3i c4i"
-        "cp5 cp6"
-        "c5i c6i"
+        "nav nav nav nav"
+        "wel wel wel wel"
+        "ouc ouc ouc ouc"
+        "c1p c2p c3p c4p"
+        "ci1 ci2 ci3 ci4"
+        "oum oum oum oum"
+        "m10 m11 m12 m13"
+        "i10 i11 i12 i13"
         ;
     }
+
+    #car_pic1 {
+        grid-area: c1p;
+    }
+
+    #car_pic2 {
+        grid-area: c2p;
+    }
+
+    #car_pic3 {
+        grid-area: c3p;
+    }
+
+    #car_pic4 {
+        grid-area: c4p;
+    }
+
+    #rs6 {
+        margin-top: 0.1rem;
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+    }
+
+    #xc60 {
+        margin-top: 0.1rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+
+    #m4 {
+        margin-top: 0.1rem;
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+
+    }
+
+    #m2 {
+        margin-top: 0.1rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+
+    #car1_info {
+        margin-bottom: 0;
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        grid-area: ci1;
+    }
+
+    #car2_info {
+        margin-bottom: 0;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        grid-area: ci2;
+    }
+
+    #car3_info {
+        grid-area: ci3;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        margin-bottom: 0;
+    }
+
+    #car4_info {
+        grid-area: ci4;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        margin-bottom: 0;
+    }
+
+    #mc_pic10 {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-top: 0.1rem;
+        grid-area: 10m;
+    }
+
+    #mc_pic11 {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-top: 0.1rem;
+        grid-area: 11m;
+    }
+
+    #mc_pic12 {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-top: 0.1rem;
+        grid-area: 12m;
+    }
+
+    #mc_pic13 {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-top: 0.1rem;
+        grid-area: 13m;
+
+    }
+    
+    #mc10_info {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    #mc11_info {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    #mc12_info {
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    #mc13_info {
+        margin-right: 1rem;
+        margin-left: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+
+    .welcome_text {
+        margin-right: 10rem;
+    }
+
+
 
     #burger_line1 {
         transition: all 0s;
