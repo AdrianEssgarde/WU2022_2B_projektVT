@@ -367,14 +367,19 @@
     justify-content: center;
     align-items: center;
     background-image: url(../img/car_scervice.jpg);
+    background-size: cover;
+    width: 100%;
+}
 
+#welcome_section {
+    margin-bottom: 4rem;
 }
 
 .welcome_text {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 2rem;
-    color: rgb(215, 215, 215);
+    color: rgb(255, 255, 255);
 }
 
 #our_cars {
@@ -554,7 +559,7 @@ ul a {
 
 #mc_title_mobile {
     font-size: 2rem;
-    color: rgb(215, 215, 215);
+    color: rgb(246, 246, 246);
     font-family: 'Poppins', sans-serif;
     margin-top: 1.8rem;
 }
@@ -1193,7 +1198,7 @@ ul {
     display: grid;
 
     grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: 125px 125px 215px 200px 200px 200px 200px 200px 50px;
+    grid-template-rows: 125px 125px 230px 200px 230px 200px 230px 200px 50px;
 
     grid-template-areas:
     "nav"
