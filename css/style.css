@@ -504,15 +504,14 @@ ul a {
 #grid_wrapper_motorcykles {
     
     display: grid;
-    grid-template-columns: minmax(150px, 1fr) 10px minmax(150px, 1fr);
-    grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px minmax(350px, 3.5fr) minmax(145px, 1fr) 10px;
+    grid-template-columns: minmax(150px, 1fr) 2px minmax(150px, 1fr);
+    grid-template-rows: minmax(125px, 1fr) minmax(300px, 3fr) minmax(350px, 3.5fr) minmax(145px, 1fr) 2px minmax(350px, 3.5fr) minmax(145px, 1fr) 2px minmax(350px, 3.5fr) minmax(145px, 1fr) 2px minmax(350px, 3.5fr) minmax(145px, 1fr) 2px minmax(350px, 3.5fr) minmax(145px, 1fr) 2px;
     height: 100vh;
-    width: 100vw;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 100vw;   
 
     grid-template-areas: 
     "nav nav nav"
+    "wlm wlm wlm"
     "mp1 ma6 mp2"
     "m1i ma6 m2i"
     "ma1 ma1 ma1"
@@ -529,6 +528,43 @@ ul a {
     "m9i m9i m9i"
     "ma5 ma5 ma5" 
     ;
+}
+
+#pic {
+    display: none;
+}
+
+#welcome_pic {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#mc_welcome {
+    grid-area: wlm;
+    background-image: url(../img/motorbike1.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#mc_title_mobile {
+    font-size: 2rem;
+    color: rgb(215, 215, 215);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.8rem;
+}
+
+#mc_title1 {
+    display: none;
+}
+
+#mc_title2 {
+    display: none;
 }
 
 #mc_pic1 {
@@ -1157,204 +1193,150 @@ ul {
     display: grid;
 
     grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: minmax(125px, 1fr) minmax(500px, 2fr)  minmax(500px, 2fr) minmax(500px, 2fr);
+    grid-template-rows: 125px 125px 215px 200px 200px 200px 200px 200px 50px;
 
     grid-template-areas:
     "nav"
+    "abu"
     "ohi"
+    "ohp"
     "hww"
+    "hwp"
     "pol"
+    "pop"
+    "spc"
     ;
 
+}
+
+#space {
+    grid-area: spc;
+    background: rgb(239, 239, 239);
+}
+
+#our_history_pic {
+    grid-area: ohp;
+    position: relative;
+    background: rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#how_we_work_pic {
+    grid-area: hwp;
+    position: relative;
+    background: rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#policy_pic {
+    grid-area: pop;
+    position: relative;
+    background: rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#our_history_img {
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+}
+
+#how_we_work_img {
+    width: 80%;
+    height: 85%;
+    object-fit: cover;
+}
+
+#policy_img {
+    width: 80%;
+    height: 85%;
+    object-fit: cover;
 }
 
 
 #our_history_background {
     position: relative;
     grid-area: ohi;
+    background: rgb(239, 239, 239);
 }
 
 
-#our_history_background::before{
-
-    background-image: url(../img/gray3.jpg);
-    content: "";
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 235px;
-    top: -1rem;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.4;
-    filter: brightness(40%);
-    margin: 0;
- 
-}
 
 #how_we_work_background {
     position: relative;
     grid-area: hww;
+    background: rgb(239, 239, 239);
   
 }
 
-#how_we_work_background::before{
+#about_us {
+    grid-area: abu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(239, 239, 239);
 
-    background-image: url(../img/gray3.jpg);
-    content: "";
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 235px;
-    top: -1rem;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.4;
-    filter: brightness(40%);
- 
+}
+
+#about_us_title {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    margin-top: 2rem;
 }
 
 
 #policy_background {
     position: relative;
     grid-area: pol;
-  
-}
-
-#policy_background::before{
-
-    background-image: url(../img/gray3.jpg);
-    content: "";
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 235px;
-    top: -1rem;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.4;
-    filter: brightness(40%);
- 
+    background: rgb(239, 239, 239);
 }
 
 
 #policy {
     grid-area: pol;
     position: relative;
+    background: rgb(239, 239, 239);
 }
 
-#policy::before{
-
-   background-image: url(../img/policy1.jpg);
-    content: "";
-    background-position: top;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-    filter: brightness(110%);
-
-}
-
-
-
-#policy_pic {
-    grid-area: hif;
-    display: flex;
-}
 
 #our_history {
     grid-area: ohi;
     position: relative;
+    background: rgb(239, 239, 239);
 
 }
 
-
-#our_history_pic {
-    grid-area: ohp;
-    position: relative;
-}
-
-#our_history::before{
-
-   background-image: url(../img/history.jpg);
-    content: "";
-    background-position: top;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-    filter: brightness(110%);
-
-}
 
 #how_we_work {
     grid-area: hww;
     position: relative;
+    background: rgb(239, 239, 239);
 }
 
-
-#how_we_work_pic {
-    display: flex;
-    grid-area: hwp;
-
-    
-}
-
-#how_we_work::before{
-
-    background-image: url(../img/car_key.jpg);
-    content: "";
-    background-position: center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-    filter: brightness(110%);
-}
-
-#costumer {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-#old_cars {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-#high_five {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: top;
-}
 
 .about_us_text {
     margin-top: 0.4rem;
-    margin-left: 1.8rem;
+    margin-left: 2rem;
+    margin-right: 1.6rem;
     line-height: 1.4rem;
     font-family: 'Poppins', sans-serif;
     fill-opacity: 0;
-    position: relative;
+    position: relative; 
     color: black;
    
 }
 
 .about_us_title {
 
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     margin-top: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -1509,6 +1491,7 @@ ul {
 
     .welcome_text {
         margin-right: 10rem;
+        font-size: 2.5rem;
     }
 
 
@@ -1557,10 +1540,11 @@ ul {
     #grid_wrapper_motorcykles {
 
         grid-template-columns: minmax(267px, 1fr) 10px minmax(267px, 1fr) 10px minmax(267px, 1fr);
-        grid-template-rows: minmax(125px, 1.25fr) minmax(350px, 3.5fr) minmax(175px, 1fr) 10px minmax(350px, 3.5fr) minmax(175px, 1fr) 10px minmax(350px, 3.5fr) minmax(175px, 1fr);
+        grid-template-rows: minmax(125px, 1.25fr) minmax(400px, 3fr) minmax(350px, 3.5fr) minmax(175px, 1fr) 10px minmax(350px, 3.5fr) minmax(175px, 1fr) 10px minmax(350px, 3.5fr) minmax(175px, 1fr);
 
         grid-template-areas: 
         "nav nav nav nav nav"
+        "wlm wlm wlp wlp wlp"
         "mp1 ma3 mp2 ma6 mp3"
         "m1i ma3 m2i ma6 m3i"
         "ma1 ma1 ma1 ma1 ma1"
@@ -1572,6 +1556,63 @@ ul {
         ;
 
     }
+
+    #mc_welcome {
+        grid-area: wlm;
+        background-image: none;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        background: rgb(213, 213, 213);
+    }
+
+
+    #mc_pic1 {
+        margin-top: 10px;
+    }
+
+    #mc_pic2 {
+        margin-top: 10px;
+    }
+
+    #mc_pic3 {
+        margin-top: 10px;
+    }
+
+    #pic{
+        grid-area: wlp;
+        display: flex;
+        justify-content: center;
+    }
+
+    #mc_pic {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        
+    }
+
+    #mc_title_mobile {
+        display: none;
+    }
+
+    #mc_title1 {
+        display: block;
+        color: black;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        line-height: 2.5rem;
+    }
+
+    #mc_title2 {
+        display: block;
+        color: black;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        line-height: 3rem;
+    }
+
+
 
     .mc_info_text {
         font-size: 1.2rem;
@@ -1643,16 +1684,28 @@ ul {
 
     #grid_wrapper_about_us {
 
-        grid-template-columns: 1fr;
-        grid-template-rows: minmax(125px, 1fr) minmax(500px, 2.8fr) minmax(500px, 2.8fr) minmax(500px, 2.8fr);
+        grid-template-columns: minmax(400px, 1fr) minmax(400px, 2fr);
+        grid-template-rows: minmax(125px, 1fr) minmax(160px, 1fr) minmax(400px, 2.8fr) minmax(400px, 2.8fr) minmax(400px, 2.8fr) 20px;
 
         grid-template-areas: 
         "nav nav"
+        "abu abu"
         "ohi ohp"
         "hww hwp"
-        "pol hif"
+        "pol pop"
+        "spc spc"
         ;
 
+    }
+
+    #about_us_title {
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+    
+    #about_us {
+        justify-content: start;
     }
 
     .about_us_title {
